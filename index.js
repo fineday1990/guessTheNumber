@@ -10,16 +10,16 @@ function guessNum(num) {
 		tries = 5;
       return alert("Разрази меня гром, верно!");
     } else if(1 === Math.abs(secretNum - num)){
-		alert("Якорь вам в глотку! Вы близки как никогда!");
+		alert("Вы близки как никогда!");
       tries++;
 		+count.innerText--;
 	 }
 	 else {
-      alert("Проклятые медузы! попробуйте ещё раз");
+      alert("Попробуйте ещё раз");
       tries++;
 		+count.innerText--;
     }
   } else {
-	alert("Всю жизнь будешь палубу драить! Конец игры!");
+	alert("Проклятые медузы! Конец игры!");
   }
 }
